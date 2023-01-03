@@ -5,7 +5,9 @@ class Program
     {
         
         int val;
-        //parse is a data converter 
+        //parse is a data converter from str to int
+        //to convert from int to str 
+        //string number = val.Tostring();
         val = int.Parse("1235");
         Console.WriteLine("Value is ",val);
         //equals is a methods that compares two datas gives boolean value 
